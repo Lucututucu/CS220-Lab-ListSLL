@@ -1,7 +1,7 @@
 /** 
  * ===========================================================
- * Name: 
- * Section: 
+ * Name: Lucas Briggs
+ * Section: T4 Crowl
  * Project: Implementation of Linked List Library
  * Purpose: List ADT as linked list
  * ===========================================================
