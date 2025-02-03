@@ -120,6 +120,13 @@ void insertElementLinkedList(LinkedList* list, int position, double element) {
     Node* new = (Node*) malloc(sizeof(Node));
     new->data = element;
 
+    if (list->numberOfElements == 0) {
+        new->next = list->head;
+        list->head = new;
+        list->tail = new;
+        list->numberOfElements++;
+        return;
+    }
     if (position == 0) {
         new->next = list->head;
         list->head = new;
